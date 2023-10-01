@@ -1,0 +1,14 @@
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/bin/Debug/net7.0/Dossier
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/bin/Debug/net7.0/Dossier.deps.json
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/bin/Debug/net7.0/Dossier.runtimeconfig.json
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/bin/Debug/net7.0/Dossier.dll
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/bin/Debug/net7.0/Dossier.pdb
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.GeneratedMSBuildEditorConfig.editorconfig
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.AssemblyInfoInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.AssemblyInfo.cs
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.csproj.CoreCompileInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.dll
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/refint/Dossier.dll
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.pdb
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/Dossier.genruntimeconfig.cache
+/Users/secret/Desktop/programming/C#/tasks/task3/Dossier/obj/Debug/net7.0/ref/Dossier.dll

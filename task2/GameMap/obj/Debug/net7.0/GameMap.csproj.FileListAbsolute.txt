@@ -1,0 +1,14 @@
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/bin/Debug/net7.0/GameMap
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/bin/Debug/net7.0/GameMap.deps.json
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/bin/Debug/net7.0/GameMap.runtimeconfig.json
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/bin/Debug/net7.0/GameMap.dll
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/bin/Debug/net7.0/GameMap.pdb
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.GeneratedMSBuildEditorConfig.editorconfig
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.AssemblyInfoInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.AssemblyInfo.cs
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.csproj.CoreCompileInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.dll
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/refint/GameMap.dll
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.pdb
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/GameMap.genruntimeconfig.cache
+/Users/secret/Desktop/programming/C#/tasks/task2/GameMap/obj/Debug/net7.0/ref/GameMap.dll
