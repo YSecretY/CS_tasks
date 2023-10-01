@@ -1,7 +1,12 @@
-﻿using Converter;
+﻿using System;
+using Converter;
 
 class Program
 {
+    //іменування неймспейсу {Company}.{Product}.{Layer}
+    //Microsoft.AspNetCore.Application
+    //Microsoft.EntityFrameworkCore.Core
+    
     public static void Main(string[] argc)
     {
         Wallet userWallet = new Wallet();
@@ -13,6 +18,8 @@ class Program
             Console.Write("What currency would you like to convert: ");
             string? fromCurrency = Console.ReadLine();
 
+            //тут тоже потрібно валідувати вхідні значення, щоб зразу сказати користувачеві що він вводить щось не то
+            
             Console.Write("How much would you like to convert: ");
             double valToConvert = Convert.ToDouble(Console.ReadLine());
 
