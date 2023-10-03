@@ -44,8 +44,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     public void BanPlayer(Guid id)
     {
         Player? p = _players.FirstOrDefault(p => p.Id == id);
-        if (p != null)
-            p.IsBanned = true;
+        p?.Ban();
     }
 
     /// <summary>
@@ -56,7 +55,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     public void BanPlayer(Player p)
     {
         if (!IsValid(p)) throw new ArgumentException("Invalid player. Cannot ban it.");
-        p.IsBanned = true;
+        p?.Ban();
     }
 
     /// <summary>

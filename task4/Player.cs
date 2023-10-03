@@ -8,7 +8,7 @@ public class Player : IPlayer
     public Guid Id { get; }
     public string NickName { get; }
     public int Level { get; }
-    public bool IsBanned { get; set; }
+    public bool IsBanned { get; private set; }
 
     public Player(string nickName)
     {
@@ -36,5 +36,13 @@ public class Player : IPlayer
     public bool IsValid(int level)
     {
         return level is >= 1 and <= 180;
+    }
+
+    /// <summary>
+    /// Ban this player.
+    /// </summary>
+    public void Ban()
+    {
+        IsBanned = true;
     }
 }
