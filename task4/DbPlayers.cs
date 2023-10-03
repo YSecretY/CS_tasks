@@ -65,7 +65,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     /// <returns>True if valid otherwise false.</returns>
     public bool IsValid(Player p)
     {
-        return p.Id != Guid.Empty && p.IsValid(p.NickName) && p.IsValid(p.Level);
+        return p.Id != Guid.Empty && Nickname.IsValid(p.Nick.ToString()) && p.IsValid(p.Level);
     }
 
     /// <summary>
@@ -76,7 +76,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     {
         foreach (var p in _players.Where(p => p.Id == id))
         {
-            Console.WriteLine($"Nickname: {p.NickName}\n" +
+            Console.WriteLine($"Nickname: {p.Nick}\n" +
                               $"Level:    {p.Level}\n" +
                               $"Banned:   {p.IsBanned}\n" +
                               $"Id:       {p.Id}");
@@ -91,7 +91,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     public void PrintPlayerInfo(Player p)
     {
         if (!IsValid(p)) throw new Exception("Cannot print player info. Invalid player.");
-        Console.WriteLine($"Nickname: {p.NickName}\n" +
+        Console.WriteLine($"Nickname: {p.Nick}\n" +
                           $"Level:    {p.Level}\n" +
                           $"Banned:   {p.IsBanned}\n" +
                           $"Id:       {p.Id}");

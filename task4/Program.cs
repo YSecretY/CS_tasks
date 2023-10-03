@@ -21,8 +21,8 @@ internal static class Program
         Guid toBanId = new Guid();
         foreach (Player p in db)
         {
-            if (p.NickName == "Test6") toDeleteId = p.Id;
-            if (p.NickName == "Test3") toBanId = p.Id;
+            if (p.Nick.ToString() == "Test6") toDeleteId = p.Id;
+            if (p.Nick.ToString() == "Test3") toBanId = p.Id;
         }
 
         db.RemovePlayer(toDeleteId);
