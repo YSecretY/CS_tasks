@@ -2,7 +2,8 @@ namespace task4;
 
 public class Player : IPlayer
 {
-    private readonly HashSet<char> _invalidNickNameSymbols =
+    //TODO: я би цю конфігурацію виніс би в отдєльний клас UserNameValidator, можна його зробити статичним
+    private readonly HashSet<char> _invalidNickNameSymbols = 
         new HashSet<char> { '$', '&', '@', '^', '%', ' ', '\n', '\t' };
 
     public Guid Id { get; }
@@ -17,7 +18,8 @@ public class Player : IPlayer
         Level = 1;
         IsBanned = false;
     }
-
+    
+    //TODO: UserNameValidator
     /// <summary>
     /// Checks if given nickName is valid.
     /// </summary>
@@ -41,7 +43,7 @@ public class Player : IPlayer
     /// <summary>
     /// Ban this player.
     /// </summary>
-    public void Ban()
+    public void Ban() //TODO: ApplyBan() більше характеризує суть
     {
         IsBanned = true;
     }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/secret/Desktop/programming/C#/tasks/task4/task4.csproj": {}
+    "/Users/dmitryi/Desktop/trello/CS_tasks/task4/task4.csproj": {}
   },
   "projects": {
-    "/Users/secret/Desktop/programming/C#/tasks/task4/task4.csproj": {
+    "/Users/dmitryi/Desktop/trello/CS_tasks/task4/task4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/secret/Desktop/programming/C#/tasks/task4/task4.csproj",
+        "projectUniqueName": "/Users/dmitryi/Desktop/trello/CS_tasks/task4/task4.csproj",
         "projectName": "task4",
-        "projectPath": "/Users/secret/Desktop/programming/C#/tasks/task4/task4.csproj",
-        "packagesPath": "/Users/secret/.nuget/packages/",
-        "outputPath": "/Users/secret/Desktop/programming/C#/tasks/task4/obj/",
+        "projectPath": "/Users/dmitryi/Desktop/trello/CS_tasks/task4/task4.csproj",
+        "packagesPath": "/Users/dmitryi/.nuget/packages/",
+        "outputPath": "/Users/dmitryi/Desktop/trello/CS_tasks/task4/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/secret/.nuget/NuGet/NuGet.Config"
+          "/Users/dmitryi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
