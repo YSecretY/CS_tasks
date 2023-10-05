@@ -71,10 +71,14 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     /// <returns>True if valid otherwise false.</returns>
     public bool IsValid(Player p)
     {
+<<<<<<< HEAD
         //todo: валідувати нік користувача, гуїд і тд, все що відноситься до користувача, повинен робити конструктор користувача (Player),
         //конструктури для того і створили для того щоб породити обєкт, якщо обєкт з невалідним станом, це його проблема
         //тому що так прийдетсья у всіх класах де на вході приймається користувач писати валідатори, і визивати IsValid()
         return p.Id != Guid.Empty && p.IsValid(p.NickName) && p.IsValid(p.Level);
+=======
+        return p.Id != Guid.Empty && Nickname.IsValid(p.Nick.ToString()) && p.IsValid(p.Level);
+>>>>>>> dev
     }
 
     /// <summary>
@@ -87,7 +91,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     {
         foreach (var p in _players.Where(p => p.Id == id))
         {
-            Console.WriteLine($"Nickname: {p.NickName}\n" +
+            Console.WriteLine($"Nickname: {p.Nick}\n" +
                               $"Level:    {p.Level}\n" +
                               $"Banned:   {p.IsBanned}\n" +
                               $"Id:       {p.Id}");
@@ -102,7 +106,7 @@ public class DbPlayers : IDbPlayers, IEnumerable<Player>
     public void PrintPlayerInfo(Player p)
     {
         if (!IsValid(p)) throw new Exception("Cannot print player info. Invalid player.");
-        Console.WriteLine($"Nickname: {p.NickName}\n" +
+        Console.WriteLine($"Nickname: {p.Nick}\n" +
                           $"Level:    {p.Level}\n" +
                           $"Banned:   {p.IsBanned}\n" +
                           $"Id:       {p.Id}");

@@ -2,34 +2,28 @@ namespace task4;
 
 public class Player : IPlayer
 {
+<<<<<<< HEAD
     //TODO: я би цю конфігурацію виніс би в отдєльний клас UserNameValidator, можна його зробити статичним
     private readonly HashSet<char> _invalidNickNameSymbols = 
         new HashSet<char> { '$', '&', '@', '^', '%', ' ', '\n', '\t' };
 
+=======
+>>>>>>> dev
     public Guid Id { get; }
-    public string NickName { get; }
+    public Nickname Nick { get; }
     public int Level { get; }
     public bool IsBanned { get; private set; }
 
     public Player(string nickName)
     {
         Id = Guid.NewGuid();
-        NickName = IsValid(nickName) ? nickName : throw new ArgumentException("Nickname is invalid.");
+        Nickname nick = new Nickname(nickName);
+        Nick = nick;
         Level = 1;
         IsBanned = false;
     }
     
     //TODO: UserNameValidator
-    /// <summary>
-    /// Checks if given nickName is valid.
-    /// </summary>
-    /// <param name="nickName">Nickname to check.</param>
-    /// <returns>True if valid otherwise false.</returns>
-    public bool IsValid(string nickName)
-    {
-        return nickName.Length > 2 && !nickName.Any(x => _invalidNickNameSymbols.Contains(x));
-    }
-
     /// <summary>
     /// Checks if given level is valid.
     /// </summary>
