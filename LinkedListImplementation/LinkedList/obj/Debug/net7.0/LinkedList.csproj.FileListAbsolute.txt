@@ -1,0 +1,14 @@
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/bin/Debug/net7.0/LinkedList
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/bin/Debug/net7.0/LinkedList.deps.json
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/bin/Debug/net7.0/LinkedList.runtimeconfig.json
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/bin/Debug/net7.0/LinkedList.dll
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/bin/Debug/net7.0/LinkedList.pdb
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.AssemblyInfoInputs.cache
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.AssemblyInfo.cs
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.csproj.CoreCompileInputs.cache
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.dll
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/refint/LinkedList.dll
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.pdb
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/LinkedList.genruntimeconfig.cache
+/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/Debug/net7.0/ref/LinkedList.dll

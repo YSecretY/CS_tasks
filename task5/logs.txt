@@ -1,0 +1,10 @@
+Not enough money.
+Client 653565bf-a1e8-427e-8056-b7d1e1fa605e removes one element from basket.
+Not enough money.
+Client 653565bf-a1e8-427e-8056-b7d1e1fa605e removes one element from basket.
+Not enough money.
+Client ae98b529-675d-4fbf-9c45-0a1e15ae5fda removes one element from basket.
+Not enough money.
+Client 4c833f4a-510e-4cfe-a1fb-151f05dfea9c removes one element from basket.
+Not enough money.
+Client 10406c38-61c9-4125-8095-1e6dfcbb54f6 removes one element from basket.
