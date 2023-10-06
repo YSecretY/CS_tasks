@@ -13,4 +13,6 @@ public interface IBasket<in TEntity>
     /// </summary>
     /// <returns></returns>
     public bool Remove();
+
+    public decimal Sum { get; }
 }

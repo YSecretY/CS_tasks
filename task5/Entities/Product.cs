@@ -8,15 +8,15 @@ public class Product : IProduct<decimal>
     private string _name;
     private decimal _cost;
 
+    private static ProductNameValidator _validator = new();
+
     public string Name
     {
         get => _name;
 
         set
         {
-            ProductNameValidator validator = new ProductNameValidator();
-
-            if (!validator.IsValid(value)) throw new ArgumentException("Invalid name for the product.", nameof(value));
+            if (!_validator.IsValid(value)) throw new ArgumentException("Invalid name for the product.", nameof(value));
 
             _name = value;
         }

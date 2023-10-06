@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/LinkedList.csproj": {}
+    "/Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/LinkedList.csproj": {}
   },
   "projects": {
-    "/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/LinkedList.csproj": {
+    "/Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/LinkedList.csproj",
+        "projectUniqueName": "/Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/LinkedList.csproj",
+        "projectPath": "/Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/LinkedList.csproj",
         "packagesPath": "/Users/secret/.nuget/packages/",
-        "outputPath": "/Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/obj/",
+        "outputPath": "/Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/secret/.nuget/NuGet/NuGet.Config"

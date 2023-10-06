@@ -11,4 +11,4 @@ public class Node<T>
         Data = data;
         Next = Prev = null;
     }
-} 
+}

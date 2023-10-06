@@ -1,24 +1,38 @@
 using task5.Repositories;
 using task5.Interfaces;
+using task5.Validators;
 
 namespace task5.Entities;
 
 public class Client : IClient, IRepositoryEntity<Guid>
 {
-    private readonly Basket _basket;
-    private readonly Wallet _wallet;
+    private readonly IBasket<Product> _basket;
+    private readonly IWallet<decimal> _wallet;
 
-    public Guid Id { get; }
+    private static BasketValidator _basketValidator = new();
+    private static WalletValidator _walletValidator = new();
+    private static ProductValidator _productValidator = new();
 
-    public Client(Basket basket, Wallet wallet)
+    private static FileWriter _fileWriter = new("./task5/logs.txt");
+    private static Logger _logger = new(_fileWriter);
+
+    public Client(IBasket<Product> basket, IWallet<decimal> wallet)
     {
         Id = Guid.NewGuid();
+
+        if (!_basketValidator.IsValid(basket as Basket)) throw new ArgumentException("Invalid basket argument given.");
+        if (!_walletValidator.IsValid(wallet as Wallet)) throw new ArgumentException("Invalid wallet argument given.");
+
         _basket = basket;
         _wallet = wallet;
     }
 
+    public Guid Id { get; }
+
     public void AddToBasket(Product p)
     {
+        if (!_productValidator.IsValid(p)) throw new ArgumentException("Invalid product argument given.");
+
         _basket.Add(p);
     }
 
@@ -37,7 +51,7 @@ public class Client : IClient, IRepositoryEntity<Guid>
         }
         catch (InvalidOperationException ex)
         {
-            Console.WriteLine($"{ex.Message}\nClient {Id} removes one element from basket.");
+            _logger.LogInfo($"{ex.Message}\nClient {Id} removes one element from basket.");
 
             _basket.Remove();
 

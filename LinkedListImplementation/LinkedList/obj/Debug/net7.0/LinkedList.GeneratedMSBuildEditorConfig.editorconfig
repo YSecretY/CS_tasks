@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LinkedList
-build_property.ProjectDir = /Users/secret/Desktop/programming/C#/labs/dsa/lab3/LinkedListImplementation/LinkedList/
+build_property.ProjectDir = /Users/secret/Desktop/programming/C#/tasks/LinkedListImplementation/LinkedList/
