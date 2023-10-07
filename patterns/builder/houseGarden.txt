@@ -1,0 +1,49 @@
+House garden: 
+Name: fruitfulTree0, FruitType: Cherry 
+Name: fruitfulTree1, FruitType: Banana 
+Name: fruitfulTree2, FruitType: Lemon 
+Name: fruitfulTree3, FruitType: Cherry 
+Name: fruitfulTree4, FruitType: Orange 
+
+Name: Bush0, BerryType: Raspberry 
+Name: Bush1, BerryType: Raspberry 
+Name: Bush2, BerryType: Raspberry 
+Name: Bush3, BerryType: Strawberry 
+Name: Bush4, BerryType: Strawberry 
+Name: Bush5, BerryType: Gooseberry 
+Name: Bush6, BerryType: Blackberry 
+Name: Bush7, BerryType: Raspberry 
+Name: Bush8, BerryType: Gooseberry 
+Name: Bush9, BerryType: Currant 
+
+Name: Flower0, FlowerType: Chamomile 
+Name: Flower1, FlowerType: Chamomile 
+Name: Flower2, FlowerType: Snowdrop 
+Name: Flower3, FlowerType: Chamomile 
+Name: Flower4, FlowerType: Chamomile 
+Name: Flower5, FlowerType: Chrysanthemum 
+Name: Flower6, FlowerType: Snowdrop 
+Name: Flower7, FlowerType: Chrysanthemum 
+Name: Flower8, FlowerType: Tulip 
+Name: Flower9, FlowerType: Snowdrop 
+Name: Flower10, FlowerType: Rose 
+Name: Flower11, FlowerType: Tulip 
+Name: Flower12, FlowerType: Rose 
+Name: Flower13, FlowerType: Snowdrop 
+Name: Flower14, FlowerType: Chamomile 
+Name: Flower15, FlowerType: Rose 
+Name: Flower16, FlowerType: Rose 
+Name: Flower17, FlowerType: Chamomile 
+Name: Flower18, FlowerType: Chrysanthemum 
+Name: Flower19, FlowerType: Chrysanthemum 
+
+Scarecrow0 Scarecrow1 Scarecrow2 
+
+Barn0, area: 15, perimeter: 15
+Barn1, area: 30, perimeter: 30
+Barn2, area: 45, perimeter: 45
+
+Greenhouse0, area: 15, perimeter: 15
+Greenhouse1, area: 30, perimeter: 30
+
+

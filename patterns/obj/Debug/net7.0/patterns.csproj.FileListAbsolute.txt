@@ -1,0 +1,14 @@
+/Users/secret/Desktop/programming/C#/tasks/patterns/bin/Debug/net7.0/patterns
+/Users/secret/Desktop/programming/C#/tasks/patterns/bin/Debug/net7.0/patterns.deps.json
+/Users/secret/Desktop/programming/C#/tasks/patterns/bin/Debug/net7.0/patterns.runtimeconfig.json
+/Users/secret/Desktop/programming/C#/tasks/patterns/bin/Debug/net7.0/patterns.dll
+/Users/secret/Desktop/programming/C#/tasks/patterns/bin/Debug/net7.0/patterns.pdb
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.AssemblyInfoInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.AssemblyInfo.cs
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.csproj.CoreCompileInputs.cache
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.dll
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/refint/patterns.dll
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.pdb
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/patterns.genruntimeconfig.cache
+/Users/secret/Desktop/programming/C#/tasks/patterns/obj/Debug/net7.0/ref/patterns.dll
