@@ -1,4 +1,4 @@
-﻿using patterns.decorator.classes;
+using patterns.decorator.classes;
 using patterns.decorator.decorators;
 using patterns.decorator.interfaces;
 
