@@ -1,4 +1,5 @@
-﻿using patterns.snapshot.classes;
+﻿using patterns.abstractFactory.classes;
+using patterns.abstractFactory.interfaces;
 
 namespace patterns;
 
@@ -6,23 +7,25 @@ class Program
 {
     static void Main()
     {
-        Browser browser = new Browser();
-        BrowserCaretaker caretaker = new BrowserCaretaker(browser);
+        Console.WriteLine("Please choose national dish (Ukraine or Italy): ");
+        string? country = Console.ReadLine();
 
-        caretaker.Backup();
-        browser.DoSomething();
-        
-        caretaker.Backup();
-        browser.DoSomething();
-        
+        INationalDishFactory factory = country switch
+        {
+            "Ukraine" => new UkraineNationalDishFactory(),
+            "Italy" => new ItalyNationalDishFactory(),
+            _ => throw new ArgumentException("Invalid country input.")
+        };
+
+        INationalDish result = factory.CreateNationalDish();
+
         Console.WriteLine();
-        caretaker.ShowHistory();
-
-        Console.WriteLine("\nClient: Now, let's rollback!\n");
-        caretaker.Undo();
-
-        Console.WriteLine("\n\nClient: Once more!\n");
-        caretaker.Undo();
+        Console.WriteLine(result.Country + " national dish: ");
+        Console.WriteLine(result.Name);
+        foreach (string ingredient in result.Ingredients)
+        {
+            Console.Write(ingredient == result.Ingredients.Last() ? $"{ingredient}" : $"{ingredient}, ");
+        }
 
         Console.WriteLine();
     }
