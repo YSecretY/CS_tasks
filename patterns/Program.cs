@@ -1,6 +1,4 @@
-﻿using patterns.decorator.classes;
-using patterns.decorator.decorators;
-using patterns.decorator.interfaces;
+﻿using patterns.snapshot.classes;
 
 namespace patterns;
 
@@ -8,19 +6,24 @@ class Program
 {
     static void Main()
     {
-        Message message = new Message("Test message");
-        ILogger logger = new Logger();
+        Browser browser = new Browser();
+        BrowserCaretaker caretaker = new BrowserCaretaker(browser);
 
-        logger = new EncryptionDecorator(logger);
-        if (logger is EncryptionDecorator encryptionLogger)
-        {
-            encryptionLogger.WriteEncrypted(message);
-        }
+        caretaker.Backup();
+        browser.DoSomething();
+        
+        caretaker.Backup();
+        browser.DoSomething();
+        
+        Console.WriteLine();
+        caretaker.ShowHistory();
 
-        logger = new CompressionDecorator(logger);
-        if (logger is CompressionDecorator compressionLogger)
-        {
-            compressionLogger.WriteCompressed(message);
-        }
+        Console.WriteLine("\nClient: Now, let's rollback!\n");
+        caretaker.Undo();
+
+        Console.WriteLine("\n\nClient: Once more!\n");
+        caretaker.Undo();
+
+        Console.WriteLine();
     }
 }
