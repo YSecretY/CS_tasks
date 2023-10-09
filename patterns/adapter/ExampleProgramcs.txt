@@ -1,4 +1,4 @@
-﻿using patterns.adapter.classes;
+using patterns.adapter.classes;
 using patterns.adapter.interfaces;
 
 namespace patterns;
