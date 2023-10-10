@@ -1,4 +1,4 @@
-﻿using patterns.observer.classes;
+using patterns.observer.classes;
 using Timer = patterns.observer.classes.Timer;
 
 namespace patterns;
